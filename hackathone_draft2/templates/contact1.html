@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<h2>{{ title }}</h2>
+<h3>{{ message }}</h3>
+
+<p>This is your Decrypted image</p>
+<p>The file name is {{ name }}</p>
+<div class="container" align="left">
+    <a href="/return-file1" download=""><button class="btn btn-default">Download</button></button></a>
+</div>
+{% endblock %}
