@@ -1,13 +1,18 @@
 {% extends "layout.html" %}
 
 {% block content %}
+<br><br><br><br><br><br><br><br><br><br>
 
+<div class="typewriter">
 <h2>{{ title }}</h2>
 <h3>{{ message }}</h3>
-
-<p>Encrypt</p>
-<form action="/about1" method="post" enctype="multipart/form-data">
+<br><br>
+</div>
+<div>
+<form action="/about1" method="post" enctype="multipart/form-data" >
     <input type="file" name="file" />
-    <input type="submit" value="Upload">
-
+    <br><br>
+    <input type="submit" value="Upload" >
+<br><br><br><br><br><br><br><br>
+</div>
     {% endblock %}

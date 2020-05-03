@@ -7,8 +7,76 @@
     <link rel="stylesheet" type="text/css" href="/static/content/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="/static/content/site.css" />
     <script src="/static/scripts/modernizr-2.6.2.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 </head>
+<style>
+    
+    .typewriter {
+        text-align:center;
+    }
+.typewriter h2{
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+.typewriter h1{
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
 
+/*.typewriter h3{
+  transition-delay: 5s;
+  overflow: hidden; 
+  border-right: .15em solid orange;
+  white-space: nowrap; 
+  margin: 0 auto; 
+  letter-spacing: .15em;
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}*/
+.jumbotron h1 {
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 40px;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+h2 {
+    font-family: 'Press Start 2P', cursive;
+}
+h3 {
+    font-family: 'Press Start 2P', cursive;
+}
+body{
+            background-color: black;
+            color: #2bff00;
+        }
+p {
+    color: white;
+}
+</style>
 <body>
     <div class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
@@ -33,7 +101,7 @@
         {% block content %}{% endblock %}
         <hr />
         <footer>
-            <p>&copy; {{ year }} - Image Security</p>
+            <marquee scrollamount="10"><p>&copy; {{ year }} - Image Security</p></marquee>
         </footer>
     </div>
 
