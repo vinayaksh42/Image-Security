@@ -1,22 +1,23 @@
 # Image-Security
- HOW TO BUILT THIS PROJECT 
-   1. download or zip this repo to your own system
-   2. Make sure you have flask(1.0.0) installed in your system,if not:-
-                                            run this command in command prompt
+ HOW TO USE THIS PROJECT 
+   1.  Download this repo on your system.
+   2.  Extract the downloaded zip file.
+   3.  Make sure you have Flask(1.0.0) installed on your system, if not run the following command in your command prompt.
                                             
                                             
-                                            . . .pip install flask
-   3. Open command prompt of anaconda (it has most of the dependencies pre-installed).
-   4. locate the repo folder using cd <filename>
-   5. when you are at the location of repo run this command:-
+                                             . . .pip install flask
+   4.  Open Command Prompt of Anaconda called as Anaconda Prompt (as most of the dependencies are pre-installed).
+   5.  Now change the path of working directory to that of the extracted repository (that is, ..\Image-Security-master)
+   6.  When the path of working directory is same as that of the extracted repository run these commands in anaconda prompt:-
   
-  
-                                            . . .flask
-                                            . . .python runserver.py
-   6. this will start your local sever, the server address will be displayed in the command prompt of anaconda.
-      http://localhost:5555/ will be the server address in most cases.
-   7. Upload any image to encryption tab, it will generate a key and encrypted image file.
-   8. Upload the encrypted image along with the correct key to the decryption tab to get the decrypted image.
    
-                                            THATS ALL!
+                                             . . .flask
+                                             . . .python runserver.py
+   7.  This will start your local sever, the server address will be displayed in the command prompt of anaconda.
+       The server address will be http://localhost:5555/ in most cases.
+   8.  In your browser open the server address (http://localhost:5555/ in most cases).
+   9.  Upload any image to the encryption tab, it will generate encrypted image file along with the key to decrypt it.
+   10. Upload the encrypted image along with the correct key on the decryption tab to download the decrypted image.
+   
+                                            AND YOU'RE GOOD TO GO!
 
