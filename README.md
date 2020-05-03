@@ -1,7 +1,7 @@
 # Image-Security
  HOW TO USE THIS PROJECT 
    1.  Download this repo on your system.
-   2.  Extract this downloaded zip file.
+   2.  Extract the downloaded zip file.
    3.  Make sure you have Flask(1.0.0) installed in your system, if not:-
                                              run this command in command prompt
                                             
